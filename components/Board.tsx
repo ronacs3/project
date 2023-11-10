@@ -1,7 +1,9 @@
 import { LampCeiling } from 'lucide-react';
+import Link from 'next/link';
+
 const BoardItem = () => {
     return (
-        <div className=" h-36 w-board rounded-md bg-white  flex flex-row gap-10 px-8 py-8 ">
+        <Link className=" h-36 w-board rounded-md bg-slate-600  flex flex-row gap-10 px-8 py-8 " href={`/`}>
             <div className="w-full flex flex-col gap-6 place-content-start  font-medium">
                 <div className="">Name Board</div>
                 <div className="flex flex-row gap-2">
@@ -31,7 +33,7 @@ const BoardItem = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

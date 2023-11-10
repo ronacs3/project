@@ -1,11 +1,11 @@
 import { BoardItem } from '@/components/Board';
 import LayoutDefault from '@/components/Layout';
-import { LampCeiling, BadgePlus, PlusSquare } from 'lucide-react';
+import { PlusSquare } from 'lucide-react';
 
 export default function User() {
     return (
         <LayoutDefault>
-            <div className="h-screen bg-slate-100 flex flex-col">
+            <div className="h-full flex flex-col">
                 <div className=" flex pt-20 gap-2 pl-24">
                     <div className="pt-2.5">
                         <div className=" w-8 h-4 bg-allboard border rounded "></div>

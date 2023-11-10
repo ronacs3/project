@@ -20,9 +20,11 @@ const config: Config = {
             width: {
                 board: '891px',
                 user: '486px',
+                sidebar: '180px',
             },
             height: {
                 user: '450px',
+                navbar: '70px',
             },
         },
     },
